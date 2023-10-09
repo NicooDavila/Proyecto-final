@@ -1,0 +1,15 @@
+
+main{
+    div{
+        align-items: center;
+        justify-content: center;
+        padding-top: 15px;
+        padding-bottom: 40px;
+        .card{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 10px;
+    }
+    }
+}

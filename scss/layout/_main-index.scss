@@ -1,0 +1,7 @@
+main{
+    .inicio{  
+            @include fontStyle();
+            font-family: $font-family;
+    }
+}
+

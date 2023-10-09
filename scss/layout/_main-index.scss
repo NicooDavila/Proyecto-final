@@ -2,6 +2,8 @@ main{
     .inicio{  
             @include fontStyle();
             font-family: $font-family;
+            align-items: center;
+            margin-top: 20px;
     }
 }
 

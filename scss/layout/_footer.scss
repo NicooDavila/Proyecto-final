@@ -3,15 +3,17 @@ footer{
     font-family: sans-serif;
     text-transform: capitalize;
     background-color:$background;
-    text-align: center;
     box-sizing: border-box;
-    @include stylefont();
+    
     
     
     div{
         .container{
             max-width: 1200px;
             margin: 0 auto;
+            text-align: center;
+            justify-content: center;
+            display: flex;
         }
     }
         .footer{
@@ -21,6 +23,7 @@ footer{
         .footer-row{
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
     }
         .footer-links{
         width: 25%;

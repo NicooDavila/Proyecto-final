@@ -1,6 +1,9 @@
 @media(max-width:991px){
     .footer-row{
         text-align: center;
+        align-items: center;
+        flex-direction: column;
+
     }
     .footer-links{
         width: 100%;

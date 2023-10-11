@@ -9,8 +9,9 @@ main{
 
 main{
     .quienes-somos{
-        @include fontStyle();
-        font-family: $font-family;
-        align-items: center;
+        @extend .inicio;
+            
+            
+        
     }
 }

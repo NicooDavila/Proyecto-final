@@ -107,7 +107,7 @@ header {
   background-color: #0F2C59;
 }
 
-main .inicio {
+main .inicio, main .quienes-somos {
   color: #0F2C59;
   text-align: center;
   background-color: #EADBC8;
@@ -116,12 +116,9 @@ main .inicio {
   margin-top: 20px;
 }
 
-main .quienes-somos {
-  color: #0F2C59;
-  text-align: center;
-  background-color: #EADBC8;
-  font-family: Segoe UI, Frutiger, Dejavu Sans, Helvetica Neue, Arial, sans-serif;
-  align-items: center;
+.quienes-somos {
+  padding: 0 200px;
+  padding-bottom: 20px;
 }
 
 footer {

@@ -7,11 +7,9 @@ main{
     }
 }
 
-main{
-    .quienes-somos{
-        @extend .inicio;
-            
-            
-        
+
+.quienes-somos{
+    @extend .inicio;
+        padding: 0 200px;
+        padding-bottom: 20px;
     }
-}

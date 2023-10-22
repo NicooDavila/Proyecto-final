@@ -1,7 +1,4 @@
 
-
-
-
     .button-cartas {
         position: relative;
         padding: 10px 20px;
@@ -22,8 +19,8 @@
     }
     
     .button-cartas:hover {
-        background: rgb(61, 106, 255);
-        box-shadow: 0 0 30px 5px rgba(0, 142, 236, 0.815);
+        background: #0F2C59;
+        box-shadow: 0 0 30px 5px #0F2C59(0, 142, 236, 0.815);
         -webkit-transition: all 0.2s ease-out;
         -moz-transition: all 0.2s ease-out;
         transition: all 0.2s ease-out;

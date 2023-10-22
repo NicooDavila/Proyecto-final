@@ -2,6 +2,10 @@ main{
     .descripcion{
         text-align: center;
         @include fontStyle();
+        background-color: #EADBC8;
+        margin: 30px auto;
+        justify-content: center;
+        
     }
     .form-register {
         width: 400px;
@@ -57,5 +61,22 @@ main{
     .tablas{
         padding: 90px;
         margin: 40px;
+    }
+}
+
+body{
+    overflow-x: hidden;
+}
+
+main{
+    .tamaño{
+        width: 50%;
+        margin: 20px auto;
+    }
+}
+
+main{
+    .container-fluid{
+        width: 75vw;
     }
 }
